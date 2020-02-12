@@ -16,7 +16,7 @@ public class YoutilityTest {
         r.then().statusCode(200);
 
         String capital = r.jsonPath().get("capital[0]").toString();
-        System.out.println("Capital: " + capital);
+        System.out.println("CapitalCity : " + capital);
     }
 
     @Test
